@@ -107,7 +107,7 @@ class _WallpaperState extends State<Wallpapers> {
                 return [];
               },
             ),
-            // Text("KEY -> ${dotenv.env['PEXEL_API_KEY']!}"),
+            Text("KEY -> ${dotenv.env['PEXEL_API_KEY']!}"),
             Expanded(
               child: CustomScrollView(
                 slivers: [
