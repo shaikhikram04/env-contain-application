@@ -23,7 +23,10 @@ jobs:
       # Set up the .env file
       - name: Set Up Environment Variables
         run: |
-          echo "API_KEY=${{ secrets.PEXEL_API_KEY }}" >> .env
+          echo "PEXEL_API_KEY=${{ secrets.PEXEL_API_KEY }}" >> .env
+
+      - name: Verify .env file
+        run: cat .env
 
       # Build the Flutter web app
       - name: Build Flutter Web
