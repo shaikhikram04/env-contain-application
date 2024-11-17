@@ -16,7 +16,7 @@ Future<void> main() async {
   }
 
   runApp(
-    DevicePreview(
+    DevicePreview( 
       backgroundColor: Colors.white,
       enabled: true,
       defaultDevice: Devices.ios.iPhone13ProMax,
