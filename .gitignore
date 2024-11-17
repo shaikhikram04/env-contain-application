@@ -32,7 +32,7 @@ migrate_working_dir/
 /build/
 
 # secrets
-* .env
+.env
 
 # Symbolication related
 app.*.symbols
